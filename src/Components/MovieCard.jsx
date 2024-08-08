@@ -5,7 +5,7 @@ export const MovieCard =({ movie })  => {
         return (
             <div className='w-96 border border-black'>
                 <img src={base_image_url + movie.backdrop_path} alt="" />
-                <h2>Title:{movie.title}</h2>
+                <h1 className="text-3xl">Title:{movie.title}</h1>
                 <p>Description: {movie.overview}</p>
                 <span>Popularity: {movie.popularity}</span>
                 <span>Views: {movie.vote_average}</span>
@@ -13,3 +13,8 @@ export const MovieCard =({ movie })  => {
 
      )
     }
+
+   
+    
+ 
+    
